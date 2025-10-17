@@ -1,9 +1,6 @@
-# contact-form
 # 確認テスト お問い合わせフォーム
 
 ## 環境構築
-
-Dockerが導入されていることを前提とします。
 
 1. git clone [https://github.com/tensho-takato/contact-form.git]
 2. docker-compose up -d --build
