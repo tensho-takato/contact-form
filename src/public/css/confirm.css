@@ -1,0 +1,120 @@
+body {
+    font-family: "Inika", serif;
+    color: #8B7969;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.header {
+    border-bottom: 1px solid #E0DFDE;
+    text-align: center;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1512px;
+}
+
+.header__logo {
+    font-family: "Inika", serif;
+    color: #8B7969;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.confirm-form__content {
+    margin: 0 auto;
+    max-width: 1512px;
+    text-align: center;
+    padding: 10px 5% 10px;
+}
+
+.confirm-form__heading {
+    color: #8B7969;
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.confirm-table {
+    border: 1px solid #E0DFDE;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.confirm-table__inner {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.confirm-table__row {
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.confirm-table__header {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #BAA899;
+    width: 300px;
+    text-align: left;
+    padding: 20px 40px;
+    border-right: 1px solid #E0DFDE;
+}
+
+.confirm-table__text,
+.confirm-table__text--name {
+    text-align: left;
+    padding: 20px 40px;
+    font-size: 18px;
+    color: #8B7969;
+    border: none;
+}
+
+.confirm-table__text--name {
+    display: flex;
+    gap: 40px;
+}
+
+.confirm-table__text input,
+.confirm-table__text--name input {
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    background-color: transparent;
+    outline: none;
+    color: #8B7969;
+    padding: 0;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 50px 0 100px;
+}
+
+.form__button-submit-send {
+    font-size: 18px;
+    width: 120px;
+    height: 42px;
+    color: #ffffff;
+    background-color: #8B7969;
+    border: none;
+    cursor: pointer;
+}
+
+.form__button-submit-edit {
+    font-size: 18px;
+    width: 120px;
+    height: 42px;
+    color: #8B7969;
+    background-color: #ffffff;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
